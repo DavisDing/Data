@@ -6,3 +6,4 @@ if conn:
     stmt = ibm_db.exec_immediate(conn, sql)
     result = ibm_db.fetch_both(stmt)
     while( result ):
+
